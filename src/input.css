@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn {
+    @apply shadow-lg rounded-2xl py-3 px-6 transition duration-500
+}
+
+.btn-amber {
+    @apply bg-amber-300 text-black
+}
+
+.btn-red {
+    @apply bg-red-400 text-white
+}
